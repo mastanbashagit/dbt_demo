@@ -1,0 +1,15 @@
+
+version: 2
+
+sources:
+  - name: demo
+    database: dbt_snowflake
+    schema: dbt_source
+    tables:
+      - name: customer
+      - name: orders
+      - name: part
+      - name: region
+      - name: supplier
+      - name: lineitem
+
